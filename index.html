@@ -1,60 +1,176 @@
 <!doctype html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Fabien Fleureau by fabienfleureau</title>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="chrome=1">
+<title>Fabien Fleureau</title>
+<link
+	href="http://twitter.github.com/bootstrap/assets/css/bootstrap.css"
+	rel="stylesheet">
+<style type="text/css">
+body {
+	padding-top: 60px;
+	padding-bottom: 40px;
+}
+</style>
+</head>
+<body>
+	<div class="navbar navbar-fixed-top">
+		<div class="navbar-inner">
+			<ul class="nav">
+				<li><a href="#">Home</a></li>
+				<li class="active"><a href="#">CV</a></li>
+				<li><a href="#">News</a></li>
+				<li><a href="#">Tutos</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="container-fluid">
+		<div class="row-fluid">
+			<div class="span2">
+				<h1>Fabien Fleureau</h1>
+				<img height="210"
+					src="https://secure.gravatar.com/avatar/fcfbbb1f446ffe5cadbbeb893c53a5d1?s=420&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"
+					width="210"> <br>
+				<p class="view">
+					<a href="https://github.com/fabienfleureau">GitHub Profile</a>
+				</p>
+				<p class="view">
+					<a href="http://fr.viadeo.com/fr/profile/fabien.fleureau">Viadeo
+						Profile</a>
+				</p>
+				<p class="view">
+					<a href="http://www.linkedin.com/pub/fabien-fleureau/38/170/35">Linkedin
+						Profile</a>
+				</p>
+				<p class="view">
+					<a href="http://www.doyoubuzz.com/fabien-fleureau">Doyoubuzz
+						Profile</a>
+				</p>
+			</div>
+			<div class="span10">
 
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-  </head>
-  <body>
-    <div class="wrapper">
-      <header>
-        <h1>Fabien Fleureau</h1>
-        <p>http://fabienfleureau.github.com/</p>
+				<div class="bs-docs-example">
+					<ul id="cv" class="nav nav-tabs">
+						<li class="active"><a href="#experiences" data-toggle="tab">Expériences</a></li>
+						<li class=""><a href="#competences" data-toggle="tab">Compétences</a></li>
+						<li class=""><a href="#formation" data-toggle="tab">Formation</a></li>
+					</ul>
+					<div id="cvContent" class="tab-content">
+						<div class="tab-pane fade active in" id="experiences">
+							<h3>Ingénieur R&D</h3>
+							<h4>Netfective Technology</h4>
+							Pessac - France (CDI - Depuis octobre 2011)
+							<h5>Missions</h5>
+							<ul>
+								<li>Maintenance corrective et évolutive dans le cadre de
+									l'industrialisation du produit BluAge.</li>
+								<li>Etude et conception de processus de reprise de langages
+									"legacy" (COBOL, PACBASE, POWERBUILDER, VisualBasic,...)</li>
+								<li>Etude et réalisation de la migration du gestionnaire de
+									sources CVS vers Git. Formation des utilisateurs.</li>
+							</ul>
+							<h5>Détails de l'expérience - Points techniques</h5>
+							<ul>
+								<li>Développement en Java de plugins sur Eclipse.</li>
+								<li>Développement dirigé par les modèles.(Eclipse Modeling
+									Project, EMF, Xtext, ATL)</li>
+								<li>Travail collaboratif (CVS, Git)</li>
+								<li>Gestion de projet (Jira)</li>
+							</ul>
+							<h5>Description de l'entreprise</h5>
+							Netfective Technology édite BluAge, logiciel de modernisation et
+							de génération d'applications dirigé par les modèles.<br>
+							Site web: <a
+								href="http://www.bluage.com/fr/fr_company/fr_board.html">http://www.bluage.com/fr/fr_company/fr_board.html</a>
+							<h3>Assistant Recherche et Développement</h3>
+							<h4>CEA Cesta</h4>
+							Le Barp - France (Stage - avril 2011 - septembre 2011)
+							<h5>Missions</h5>
+							<ul>
+								<li>Développement dirigé par les modèles</li>
+								<li>Benchmarking et calcul hautes performances</li>
+							</ul>
+						</div>
+						<div class="tab-pane fade" id="competences">
+							<h5>Développement et bases de données</h5>
+							<ul>
+								<li>Java, C, C++, OCaml</li>
+								<li>Eclipse Modeling, IDM, EMF, GMF, Standards MOF, DSL,
+									Xtext</li>
+								<li>Calcul parallèle: OpenMP, MPI, CUDA</li>
+								<li>SQL, Oracle, Derby</li>
+								<li>Gestion de projet, Méthodes agiles</li>
+								<li>Travail collaboratif</li>
+							</ul>
+							<h5>Logiciels</h5>
+							<ul>
+								<li>Systèmes d'exploitation : Windows, Linux</li>
+								<li>IDE : Eclipse, Eclipse Modeling Project, Obeo Designer
+								</li>
+								<li>Bureautique : Pack Office</li>
+							</ul>
+							<h5>Réseaux</h5>
+							<ul>
+								<li>NAT, Firewall, NIS, NFS, SAMBA, LDAP, DNS, DHCP, VPN</li>
+							</ul>
+							<h5>Compétences diverses</h5>
+							<ul>
+								<li>Maintenance informatique</li>
+							</ul>
+							<h5>Langues</h5>
+							<ul>
+								<li>Anglais : bon niveau. TOEIC 980/990</li>
+								<li>Espagnol : notions</li>
+							</ul>
+						</div>
+						<div class="tab-pane fade" id="formation">
+							<h3>Master Informatique</h3>
+							<h5>Université Bordeaux I</h5>
+							septembre 2008 - juin 2011
+							<ul>
+								<li>Génie Logiciel - Conduite de projet</li>
+								<li>option initiation a la recherche</li>
+							</ul>
+							<h3>Licence TIS</h3>
+							<h5>Université de Poitiers</h5>
+							septembre 2007 - juin 2008
+							<ul>
+								<li>Traitement de l'Information et du Signal</li>
+								<li>Spécialisation Informatique, mention Bien</li>
+							</ul>
+							<h3>Ecole Nationale Supérieure de Physique de Strasbourg</h3>
+							<h5>Université de Strasbourg</h5>
+							septembre 2006 - juin 2007
+							<ul>
+								<li>1ere année</li>
+							</ul>
+							<h3>Classes préparatoires</h3>
+							<h5>Lycée Descartes - Tours</h5>
+							septembre 2004 - juin 2006
+							<ul>
+								<li>MPSI/MP</li>
+							</ul>
+							<h3>Baccalauréat Scientifique</h3>
+							<h5>Lycée Rabelais - Chinon</h5>
+							septembre 2001 - juin 2004
+							<ul>
+								<li>mention AB</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- 	<script src="javascripts/scale.fix.js"></script> -->
 
+	<script type="text/javascript"
+		src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.js"></script>
 
-        <p class="view"><a href="https://github.com/fabienfleureau">View My GitHub Profile</a></p>
+	<script type="text/javascript"
+		src="http://twitter.github.com/bootstrap/assets/js/bootstrap-tab.js"></script>
 
-      </header>
-      <section>
-        <h3>Welcome to GitHub Pages.</h3>
-
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
-
-<pre><code>$ cd your_repo_root/repo_name
-$ git fetch origin
-$ git checkout gh-pages
-</code></pre>
-
-<p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
-
-<h3>Designer Templates</h3>
-
-<p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.</p>
-
-<h3>Rather Drive Stick?</h3>
-
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
-
-<h3>Authors and Contributors</h3>
-
-<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
-
-<h3>Support or Contact</h3>
-
-<p>Having trouble with Pages? Check out the documentation at <a href="http://help.github.com/pages">http://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
-      </section>
-      <footer>
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
-      </footer>
-    </div>
-    <script src="javascripts/scale.fix.js"></script>
-    
-  </body>
+</body>
 </html>
