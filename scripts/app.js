@@ -4,7 +4,7 @@
 
 var fabienfleureauApp = angular.module('fabienfleureauApp', [ 'ngRoute' ]);
 
-fabienfleureauApp.config(function($routeProvider, $locationProvider) {
+fabienfleureauApp.config(function($routeProvider) {
 	$routeProvider
 	.when('/contact', {
 		templateUrl : 'views/contact.html',
@@ -22,8 +22,6 @@ fabienfleureauApp.config(function($routeProvider, $locationProvider) {
 		templateUrl : 'views/home.html',
 		controller : 'MainController'
 	});
-	// use the HTML5 History API
-	$locationProvider.html5Mode(true);
 });
 
 fabienfleureauApp.directive('twitterTimeline', [function() {
